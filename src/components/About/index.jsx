@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import DownloadIcon from "@mui/icons-material/Download";
 import LearningCode from "../../assets/images/learn-coding-clipart.svg";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 import { textsContext } from "../../contexts";
 
