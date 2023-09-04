@@ -42,31 +42,6 @@ export const projects = [
     code: "https://github.com/daniel-jebarson/web-chat-app",
   },
   {
-    title: "Exploiter(deprecated)",
-    desc: "This is the simple multi-featured discord bot which is in more than 90+ servers that resembles lords mobile as mini game. It contains the featiures of many bots such as dyno,carl-bot,mee6 etc.It helps to authorize the users, audit the messages and can also be used for other server developments and also for mini-games.  ",
-    tags: [
-      {
-        name: "Python",
-        color: "red-600",
-      },
-      {
-        name: "Discord.py",
-        color: "green-600",
-      },
-      {
-        name: "discord-interactions",
-        color: "yellow-600",
-      },
-      {
-        name: "Flask",
-        color: "blue-800",
-      },
-    ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109031291522928670/Exploiter.png",
-    link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
-    code: "https://github.com/daniel-jebarson/EXPLOITER",
-  },
-  {
     title: "Stock Market",
     desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
     tags: [
@@ -113,7 +88,7 @@ export const projects = [
       },
     ],
     img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109035277814611978/Screenshot_19.png",
-    link: "https://github.com/code-cracked/you-farm",
+    link: "https://www.youfarmfresh.com/",
     code: "https://github.com/code-cracked/you-farm",
   },
 ];

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "../App.css";
-class Layout extends React.Component {
-  componentDidMount = () => {
+
+const Layout = ({ children }) => {
+  useEffect(() => {
     const cursor = document.querySelector(".cursor");
     const audio = new Audio(
       require("../assets/audio/mixkit-fast-double-click-on-mouse-275.mp3")
@@ -27,18 +28,15 @@ class Layout extends React.Component {
 
     const options = { duration: 2000 };
     Aos.init(options);
-  };
-  render() {
-    return (
-      <React.Fragment>
-        <div class="page">
-          <div className="flex flex-row overflow-hidden">
-            {this.props.children}
-          </div>
-          <div class="cursor"></div>
-        </div>
-      </React.Fragment>
-    );
-  }
-}
+  }, []);
+  return (
+    <React.Fragment>
+      <div className="page">
+        <div className="flex flex-row overflow-hidden">{children}</div>
+        <div className="cursor"></div>
+      </div>
+    </React.Fragment>
+  );
+};
+
 export default Layout;

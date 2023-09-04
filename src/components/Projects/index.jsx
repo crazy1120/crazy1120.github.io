@@ -1,16 +1,15 @@
-import Work from "./work";
+import Project from "./project";
 import { projects } from "../../constants";
-export default function Projects() {
+
+const Projects = () => {
   return (
     <div
       id="projects"
-      className="min-h-screen flex flex-col justify-center text-center gap-10"
-    >
+      className="min-h-screen flex flex-col justify-center text-center gap-10">
       <div
         className="font-extrabold  py-5 mt-10 text-5xl"
         data-aos={"slide-up"}
-        data-aos-duration={"700"}
-      >
+        data-aos-duration={"700"}>
         Projects
       </div>
       <div className="flex flex-wrap flex-row justify-center w-full p-4 gap-12">
@@ -21,14 +20,12 @@ export default function Projects() {
               data-aos={"zoom-in-up"}
               data-aos-offset="-5"
               data-aos-delay={ind % 2 === 0 ? "0" : "700"}
-              data-aos-duration="2000"
-            >
-              <Work
+              data-aos-duration="2000">
+              <Project
                 title={project.title}
                 desc={project.desc}
                 img={project.img}
                 link={project.link}
-                code={project.code}
                 tags={project.tags}
               />
             </div>
@@ -37,4 +34,6 @@ export default function Projects() {
       </div>
     </div>
   );
-}
+};
+
+export default Projects;

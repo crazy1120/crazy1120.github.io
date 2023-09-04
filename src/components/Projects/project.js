@@ -1,5 +1,5 @@
 import Tilt from "react-parallax-tilt";
-export default function work({ title, desc, tags, link, code, img }) {
+const Project = ({ title, desc, tags, link, code, img }) => {
   return (
     <Tilt
       options={{
@@ -7,8 +7,7 @@ export default function work({ title, desc, tags, link, code, img }) {
         scale: 1,
         speed: 450,
       }}
-      className="bg-[#0b212d]  rounded-2xl max-w-[362px]  h-full bg-gradient-to-r from-green-700 to-pink-800 p-[1px]"
-    >
+      className="bg-[#0b212d]  rounded-2xl max-w-[362px]  h-full bg-gradient-to-r from-green-700 to-pink-800 p-[1px]">
       <div className="bg-[#0b212d] w-full h-full rounded-2xl p-4 flex flex-col justify-between">
         <div>
           <div className="relative w-full rounded-2xl">
@@ -20,21 +19,10 @@ export default function work({ title, desc, tags, link, code, img }) {
             <div className="absolute inset-0 flex justify-end m-3 ">
               <div
                 onClick={() => window.open(link, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mr-2"
-              >
+                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mr-2">
                 <img
                   src={require("../../assets/images/gotosite.webp")}
                   alt={"gotosite"}
-                  className="w-4/5 h-4/5 object-contain"
-                />
-              </div>
-              <div
-                onClick={() => window.open(code, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
-              >
-                <img
-                  src={require("../../assets/images/github.webp")}
-                  alt={"github"}
                   className="w-4/5 h-4/5 object-contain"
                 />
               </div>
@@ -50,8 +38,7 @@ export default function work({ title, desc, tags, link, code, img }) {
           {tags.map((tag) => (
             <p
               key={tag.name}
-              className={`font-medium text-${tag.color} py-0.5 px-1 bg-slate-800 rounded-sm shadow`}
-            >
+              className={`font-medium text-${tag.color} py-0.5 px-1 bg-slate-800 rounded-sm shadow`}>
               {tag.name}
             </p>
           ))}
@@ -59,4 +46,6 @@ export default function work({ title, desc, tags, link, code, img }) {
       </div>
     </Tilt>
   );
-}
+};
+
+export default Project;

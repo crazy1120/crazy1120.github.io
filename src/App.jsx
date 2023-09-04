@@ -1,11 +1,13 @@
 import Layout from "./Layout/Layout";
 import Display from "./components/Display";
 import Slidebar from "./components/SlideBar";
-export default function App() {
+const App = () => {
   return (
     <Layout>
       <Slidebar />
       <Display />
     </Layout>
   );
-}
+};
+
+export default App;
