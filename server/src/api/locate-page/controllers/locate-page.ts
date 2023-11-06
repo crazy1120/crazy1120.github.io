@@ -1,0 +1,7 @@
+/**
+ * locate-page controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::locate-page.locate-page');

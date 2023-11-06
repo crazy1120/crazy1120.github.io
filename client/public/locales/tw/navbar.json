@@ -1,0 +1,66 @@
+{
+  "en": "英语",
+  "zh": "汉语",
+  "change_locale": "语言",
+
+  "audio": "音频",
+  "myfirst_carebuds": "myFirst 护理芽",
+  "myfirst_wireless_lite": "myFirst 耳机 BC 无线精简版",
+  "myfirst_wireless": "myFirst 耳机 BC 无线",
+
+  "camera": "相机",
+  "myfirst_camera_insta_wi": "myFirst 即时相机 Wi",
+  "myfirst_camera_insta_2": "myFirst 即时相机 2",
+  "myfirst_camera_10": "myFirst 相机 10",
+  "myfirst_camera_3": "myFirst 相机 3",
+  "myfirst_camera_2_navbar": "儿童防水相机 - myFirst 相机 2",
+  "myfirst_camera_2": "myFirst 相机 2",
+
+  "drawing": "图纸",
+  "myfirst_sketch_book": "myFirst 速写本",
+  "myfirst_sketch_board": "myFirst 素描板",
+  "myfirst_3dpen_make": "myFirst 3d笔制作",
+  "myfirst_sketch_pro_neo": "myFirst 素描临 Neo",
+  "myfirst_sketch_pro": "myFirst 素描临",
+  "myfirst_sketch_3": "myFirst 草图 3",
+  "myfirst_sketch_ii": "myFirst 草图二",
+
+  "watchphone": "手表手机",
+  "myfirst_fone_s3": "myFirst 手机 S3",
+  "myfirst_fone_r1s": "myFirst 手机 R1s",
+  "myfirst_fone_r1": "myFirst 手机 R1",
+  "myfirst_fone_s2": "myFirst 手机 S2",
+  "myfirst_fone_d3s": "myFirst 手机 D3s",
+
+  "subscription": "订阅",
+  "stay_connected": "保持联系",
+  "renew_and_upgrade": "更新和升级",
+  "customer_portal": "客户门户网站",
+
+  "freesim": "免费SIM卡",
+  "freesim_tw": "免费SIM卡（台湾）",
+  "activate_new_card": "激活新的 免费SIM卡",
+  "freesim_customer_portal": "免费SIM卡 客户门户",
+
+  "support": "支持",
+  "help_desk": "帮助中心",
+  "return_refund_policy": "退货及退款政策",
+  "shipping_tax": "运费和税费",
+  "warranty": "保修",
+  "certificate": "证书",
+  "user_manual": "用户说明书",
+
+  "company": "公司",
+  "about": "关于我们",
+  "contact": "联系我们",
+  "locate": "找到我们",
+  "news": "新闻",
+  "privacy_policy": "隐私政策",
+  "archive": "存档",
+
+  "stay_connected_byof": "带上你自己的手机",
+  "circle": "循环",
+  "store": "店铺",
+
+  "all_rights_reserved": "保留所有权利。"
+}

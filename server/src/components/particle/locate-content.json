@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_particle_locate_contents",
+  "info": {
+    "displayName": "locate_content"
+  },
+  "options": {},
+  "attributes": {
+    "contents": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

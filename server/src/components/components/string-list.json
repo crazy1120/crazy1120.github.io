@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_components_string_lists",
+  "info": {
+    "displayName": "string-list"
+  },
+  "options": {},
+  "attributes": {
+    "spec": {
+      "type": "text"
+    }
+  }
+}

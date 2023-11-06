@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_product_info_components",
+  "info": {
+    "displayName": "product-info-component"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "buy_link": {
+      "type": "string"
+    }
+  }
+}

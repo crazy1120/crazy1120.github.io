@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_particle_spec_comps",
+  "info": {
+    "displayName": "spec_comp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.string-list"
+    }
+  }
+}

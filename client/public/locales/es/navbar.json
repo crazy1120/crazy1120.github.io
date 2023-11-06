@@ -1,0 +1,66 @@
+{
+  "en": "English",
+  "zh": "Chinese",
+  "change_locale": "Language",
+
+  "audio": "Audio",
+  "myfirst_carebuds": "myFirst CareBuds",
+  "myfirst_wireless_lite": "myFirst Headphones BC Wireless Lite",
+  "myfirst_wireless": "myFirst Headphones BC Wireless",
+
+  "camera": "Camera",
+  "myfirst_camera_insta_wi": "myFirst Camera Insta Wi",
+  "myfirst_camera_insta_2": "myFirst Camera Insta 2",
+  "myfirst_camera_10": "myFirst Camera 10",
+  "myfirst_camera_3": "myFirst Camera 3",
+  "myfirst_camera_2_navbar": "Waterproof Camera For Kids - myFirst Camera 2",
+  "myfirst_camera_2": "myFirst Camera 2",
+
+  "drawing": "Drawing",
+  "myfirst_sketch_book": "myFirst Sketch Book",
+  "myfirst_sketch_board": "myFirst Sketch Board",
+  "myfirst_3dpen_make": "myFirst 3dPen Make",
+  "myfirst_sketch_pro_neo": "myFirst Sketch Pro Neo",
+  "myfirst_sketch_pro": "myFirst Sketch Pro",
+  "myfirst_sketch_3": "myFirst Sketch 3",
+  "myfirst_sketch_ii": "myFirst Sketch II",
+
+  "watchphone": "WatchPhone",
+  "myfirst_fone_s3": "myFirst Fone S3",
+  "myfirst_fone_r1s": "myFirst Fone R1s",
+  "myfirst_fone_r1": "myFirst Fone R1",
+  "myfirst_fone_s2": "myFirst Fone S2",
+  "myfirst_fone_d3s": "myFirst Fone D3s",
+
+  "subscription": "Subscription",
+  "stay_connected": "Stay Connected",
+  "renew_and_upgrade": "Renew and Upgrade",
+  "customer_portal": "Customer Portal",
+
+  "freesim": "FreeSIM",
+  "freesim_tw": "FreeSIM (Taiwan)",
+  "activate_new_card": "Activate A New FreeSIM Card",
+  "freesim_customer_portal": "FreeSIM Customer Portal",
+
+  "support": "Support",
+  "help_desk": "Help Desk",
+  "return_refund_policy": "Return & Refund Policy",
+  "shipping_tax": "Shipping & Tax",
+  "warranty": "Warranty",
+  "certificate": "Certificate",
+  "user_manual": "User Manuals",
+
+  "company": "Company",
+  "about": "About",
+  "contact": "Contact",
+  "locate": "Locate Us",
+  "news": "News",
+  "privacy_policy": "Privacy Policy",
+  "archive": "Archive",
+
+  "stay_connected_byof": "Bring Your Own Fone",
+  "circle": "Circle",
+  "store": "Store",
+
+  "all_rights_reserved": "All Rights Reserved."
+}

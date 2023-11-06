@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_rich_specs",
+  "info": {
+    "displayName": "rich_specs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sub_spec": {
+      "displayName": "spec_comp",
+      "type": "component",
+      "repeatable": true,
+      "component": "particle.spec-comp"
+    }
+  }
+}
